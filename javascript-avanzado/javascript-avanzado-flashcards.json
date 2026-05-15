@@ -1,0 +1,149 @@
+{
+  "title": "Programaci\u00f3n Tarjetas",
+  "cards": [
+    {
+      "front": "\u00bfCu\u00e1l es la principal diferencia entre los m\u00e9todos `slice` y `splice` en relaci\u00f3n con el array original?",
+      "back": "`splice` modifica el array original (es mutativo), mientras que `slice` devuelve un nuevo array sin alterar el original."
+    },
+    {
+      "front": "En un \u00c1rbol de B\u00fasqueda Binaria (BST), \u00bfqu\u00e9 condici\u00f3n deben cumplir los nodos del sub\u00e1rbol izquierdo respecto al nodo ra\u00edz?",
+      "back": "Todos los nodos del sub\u00e1rbol izquierdo deben contener valores estrictamente menores que el valor del nodo ra\u00edz."
+    },
+    {
+      "front": "El m\u00e9todo de array que crea uno nuevo conteniendo \u00fanicamente los elementos que cumplen una condici\u00f3n espec\u00edfica es _____.",
+      "back": "`filter`"
+    },
+    {
+      "front": "\u00bfQu\u00e9 palabra clave se utiliza dentro del constructor de una clase derivada para invocar el constructor de su clase padre?",
+      "back": "`super`"
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la complejidad temporal promedio para buscar un elemento en un \u00c1rbol de B\u00fasqueda Binaria (BST) equilibrado?",
+      "back": "$O(\\log n)$"
+    },
+    {
+      "front": "\u00bfC\u00f3mo se define un campo como 'privado' en una clase de JavaScript moderna?",
+      "back": "Se debe prefijar el nombre del identificador con el s\u00edmbolo `#`."
+    },
+    {
+      "front": "Concepto: Patr\u00f3n Singleton",
+      "back": "Definici\u00f3n: Patr\u00f3n creacional que garantiza que una clase tenga una sola instancia y proporciona un punto de acceso global a ella."
+    },
+    {
+      "front": "\u00bfQu\u00e9 m\u00e9todo especial debe implementar un objeto para ser compatible con el bucle `for..of`?",
+      "back": "`Symbol.iterator`"
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la principal ventaja de una Lista Enlazada sobre un Array respecto a su tama\u00f1o?",
+      "back": "Las listas enlazadas son din\u00e1micas y pueden crecer o reducirse sin necesidad de definir un tama\u00f1o fijo inicial."
+    },
+    {
+      "front": "\u00bfQu\u00e9 valor devuelve el m\u00e9todo `find` de un array si ning\u00fan elemento satisface la funci\u00f3n de prueba?",
+      "back": "`undefined`"
+    },
+    {
+      "front": "El m\u00e9todo que procesa cada elemento de un array para acumularlo en un \u00fanico valor de retorno se llama _____.",
+      "back": "`reduce`"
+    },
+    {
+      "front": "\u00bfPor qu\u00e9 el m\u00e9todo `sort()` puede ordenar n\u00fameros de forma contraintuitiva (ej. 1, 15, 2)?",
+      "back": "Porque por defecto convierte los elementos en cadenas y realiza una ordenaci\u00f3n lexicogr\u00e1fica."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la utilidad principal del m\u00e9todo `Array.from()`?",
+      "back": "Transformar objetos iterables o similares a arrays (array-likes) en una instancia real de Array."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es el objetivo de los Patrones de Dise\u00f1o Estructurales en el desarrollo de software?",
+      "back": "Se enfocan en c\u00f3mo se combinan clases y objetos para formar estructuras m\u00e1s grandes y complejas de forma eficiente."
+    },
+    {
+      "front": "En la estructura de una Lista Enlazada, \u00bfcu\u00e1les son los dos componentes b\u00e1sicos de un 'Nodo'?",
+      "back": "Un valor (los datos almacenados) y una referencia o puntero al siguiente nodo en la secuencia."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la diferencia clave entre `Map` y `WeakMap` respecto a la gesti\u00f3n de memoria?",
+      "back": "En `WeakMap`, las referencias a las claves (objetos) son d\u00e9biles y no impiden que el recolector de basura las elimine."
+    },
+    {
+      "front": "\u00bfQu\u00e9 m\u00e9todo de array devuelve el \u00edndice de la primera aparici\u00f3n de un elemento o -1 si no lo encuentra?",
+      "back": "`indexOf`"
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la funci\u00f3n del m\u00e9todo `constructor` dentro de una clase de JavaScript?",
+      "back": "Es un m\u00e9todo especial encargado de inicializar las propiedades de un objeto cuando se crea una nueva instancia."
+    },
+    {
+      "front": "El patr\u00f3n de dise\u00f1o que notifica autom\u00e1ticamente a m\u00faltiples objetos dependientes sobre cualquier cambio de estado en un sujeto es el _____.",
+      "back": "Patr\u00f3n Observer"
+    },
+    {
+      "front": "\u00bfPor qu\u00e9 se prefiere el m\u00e9todo `includes` sobre `indexOf` para verificar la existencia de un valor en un array?",
+      "back": "Porque `includes` puede detectar correctamente el valor `NaN`, mientras que `indexOf` no puede."
+    },
+    {
+      "front": "\u00bfQu\u00e9 sucede si se intenta invocar un constructor de clase sin utilizar la palabra clave `new`?",
+      "back": "JavaScript lanzar\u00e1 un error de tipo (`TypeError`)."
+    },
+    {
+      "front": "\u00bfQu\u00e9 m\u00e9todo est\u00e1tico de la clase `Array` se utiliza para determinar si el valor pasado es un array?",
+      "back": "`Array.isArray()`"
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la distinci\u00f3n t\u00e9cnica entre un objeto 'Iterable' y uno 'Array-like'?",
+      "back": "Los iterables implementan `Symbol.iterator`, mientras que los array-likes tienen \u00edndices num\u00e9ricos y propiedad `length`."
+    },
+    {
+      "front": "\u00bfQu\u00e9 patr\u00f3n de dise\u00f1o se utiliza para permitir que interfaces incompatibles colaboren entre s\u00ed?",
+      "back": "Patr\u00f3n Adapter"
+    },
+    {
+      "front": "\u00bfEn qu\u00e9 orden se recorren los elementos de un objeto `Map` durante una iteraci\u00f3n?",
+      "back": "Se recorren siguiendo estrictamente el orden en que los elementos fueron insertados."
+    },
+    {
+      "front": "\u00bfQu\u00e9 acci\u00f3n realiza el m\u00e9todo `splice` si el argumento `deleteCount` es 0?",
+      "back": "Inserta nuevos elementos en la posici\u00f3n indicada sin eliminar ning\u00fan elemento existente."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la complejidad temporal de b\u00fasqueda en un BST en el peor de los casos (\u00e1rbol totalmente desequilibrado)?",
+      "back": "$O(n)$"
+    },
+    {
+      "front": "\u00bfQu\u00e9 palabra clave indica que una clase es hija de otra, heredando sus m\u00e9todos y propiedades?",
+      "back": "`extends`"
+    },
+    {
+      "front": "El m\u00e9todo de array que ejecuta una funci\u00f3n para cada elemento pero no devuelve ning\u00fan valor es _____.",
+      "back": "`forEach`"
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la diferencia de retorno entre `find` y `filter`?",
+      "back": "`find` devuelve un \u00fanico elemento (el primero hallado), mientras que `filter` devuelve un nuevo array con todos los hallazgos."
+    },
+    {
+      "front": "\u00bfA qu\u00e9 hace referencia la palabra clave `this` dentro del \u00e1mbito del constructor de una clase?",
+      "back": "Hace referencia a la instancia espec\u00edfica del objeto que se est\u00e1 creando en ese momento."
+    },
+    {
+      "front": "\u00bfQu\u00e9 m\u00e9todo de cadenas (strings) se utiliza para separar un texto en un array seg\u00fan un delimitador?",
+      "back": "`split`"
+    },
+    {
+      "front": "\u00bfQu\u00e9 estructura debe tener el objeto devuelto por el m\u00e9todo `next()` de un iterador?",
+      "back": "Debe tener las propiedades `{done: Boolean, value: any}`."
+    },
+    {
+      "front": "\u00bfQu\u00e9 categor\u00eda de patrones de dise\u00f1o se centra en la comunicaci\u00f3n y asignaci\u00f3n de responsabilidades entre objetos?",
+      "back": "Patrones de Dise\u00f1o de Comportamiento (Behavioral)."
+    },
+    {
+      "front": "\u00bfQu\u00e9 ocurre si se intenta acceder a un miembro privado (`#`) de una clase desde un script externo?",
+      "back": "Se genera un error de sintaxis que impide la ejecuci\u00f3n del c\u00f3digo."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la funci\u00f3n del par\u00e1metro `initial` en el m\u00e9todo `reduce`?",
+      "back": "Define el valor inicial del acumulador para la primera ejecuci\u00f3n de la funci\u00f3n de reducci\u00f3n."
+    }
+  ]
+}
