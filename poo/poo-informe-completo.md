@@ -80,20 +80,20 @@ CLASS Student EXTENDS Person:
 
 ### Java Implementation: Animal Hierarchy
 ```java
-class Mammal {
+class Animal {
     int legs = 4;
     public void speak() {
-        System.out.println("Mammal makes a sound");
+        System.out.println("Animal makes a sound");
     }
 }
 
-class Dog extends Mammal {
+class Dog extends Animal {
     public void speak() { // Runtime Polymorphism (Overriding)
         System.out.println("Bark");
     }
 }
 
-class Cat extends Mammal {
+class Cat extends Animal {
     public void speak() {
         System.out.println("Meow");
     }
