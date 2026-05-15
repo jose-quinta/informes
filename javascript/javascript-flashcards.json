@@ -1,0 +1,165 @@
+{
+  "title": "JavaScript Tarjetas",
+  "cards": [
+    {
+      "front": "\u00bfQui\u00e9n es el creador original del lenguaje JavaScript y en qu\u00e9 empresa lo desarroll\u00f3?",
+      "back": "Brendan Eich, mientras trabajaba en Netscape Communications Corporation."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la relaci\u00f3n principal entre JavaScript y el est\u00e1ndar ECMAScript?",
+      "back": "JavaScript es una implementaci\u00f3n o dialecto basado en la especificaci\u00f3n ECMAScript."
+    },
+    {
+      "front": "\u00bfQu\u00e9 nombre recibi\u00f3 JavaScript originalmente antes de ser renombrado para aprovechar la popularidad de Java?",
+      "back": "Mocha (y posteriormente LiveScript)."
+    },
+    {
+      "front": "Nombre de la especificaci\u00f3n t\u00e9cnica publicada por Ecma International que estandariza el lenguaje:",
+      "back": "ECMA-262."
+    },
+    {
+      "front": "\u00bfCu\u00e1l fue el motivo principal por el cual Microsoft desarroll\u00f3 JScript en lugar de usar JavaScript?",
+      "back": "Para evitar problemas legales relacionados con la marca registrada de Netscape y Sun Microsystems."
+    },
+    {
+      "front": "\u00bfC\u00f3mo se define el sistema de tipos de JavaScript respecto al momento en que se vincula el tipo a un dato?",
+      "back": "Tipado din\u00e1mico, donde el tipo est\u00e1 asociado al valor y no a la variable."
+    },
+    {
+      "front": "\u00bfEn qu\u00e9 consiste la caracter\u00edstica de 'funciones de primera clase' en JavaScript?",
+      "back": "En que las funciones son tratadas como objetos y pueden ser pasadas como argumentos o devueltas por otras funciones."
+    },
+    {
+      "front": "\u00bfQu\u00e9 paradigma de programaci\u00f3n utiliza JavaScript para implementar la herencia entre objetos?",
+      "back": "Programaci\u00f3n basada en prototipos."
+    },
+    {
+      "front": "\u00bfQu\u00e9 diferencia existe entre el \u00e1mbito (scope) de una variable declarada con `var` y una declarada con `let`?",
+      "back": "`var` tiene \u00e1mbito de funci\u00f3n, mientras que `let` tiene \u00e1mbito de bloque."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la funci\u00f3n del operador de propagaci\u00f3n o 'spread operator' (`...`) en arreglos?",
+      "back": "Expande un arreglo o iterable en sus elementos individuales."
+    },
+    {
+      "front": "\u00bfPara qu\u00e9 se utiliza la funcionalidad de desestructuraci\u00f3n (destructuring) en objetos?",
+      "back": "Para extraer propiedades de un objeto y asignarlas directamente a variables independientes."
+    },
+    {
+      "front": "\u00bfQu\u00e9 caracter\u00edstica de las funciones de flecha (arrow functions) las hace inadecuadas para definir m\u00e9todos de objetos?",
+      "back": "No poseen su propio enlace al contexto `this`."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es el prop\u00f3sito del objeto `Promise` en JavaScript?",
+      "back": "Representar la terminaci\u00f3n o el fracaso eventual de una operaci\u00f3n as\u00edncrona."
+    },
+    {
+      "front": "\u00bfQu\u00e9 diferencia a un objeto `Map` de un objeto literal est\u00e1ndar en cuanto a sus claves?",
+      "back": "En un `Map`, las claves pueden ser de cualquier tipo de dato, mientras que en objetos literales suelen ser cadenas o s\u00edmbolos."
+    },
+    {
+      "front": "\u00bfQu\u00e9 garantiza el uso de un `Set` en comparaci\u00f3n con un arreglo tradicional?",
+      "back": "Que todos los valores almacenados sean \u00fanicos, ignorando duplicados."
+    },
+    {
+      "front": "\u00bfQu\u00e9 representa el tipo de dato primitivo `Symbol`?",
+      "back": "Un identificador \u00fanico e inmutable que evita colisiones de nombres en las propiedades de los objetos."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la utilidad del operador de uni\u00f3n nula (`??`) introducido en ECMAScript 2020?",
+      "back": "Devuelve el operando derecho si el izquierdo es `null` o `undefined`."
+    },
+    {
+      "front": "\u00bfC\u00f3mo evita el encadenamiento opcional (`?.`) errores en tiempo de ejecuci\u00f3n?",
+      "back": "Permite acceder a propiedades anidadas devolviendo `undefined` en lugar de un error si una referencia es nula o indefinida."
+    },
+    {
+      "front": "\u00bfQu\u00e9 objeto global proporciona una forma estandarizada de acceder al objeto global en cualquier entorno de ejecuci\u00f3n?",
+      "back": "`globalThis`."
+    },
+    {
+      "front": "\u00bfPara qu\u00e9 sirve el tipo primitivo `BigInt`?",
+      "back": "Para representar y manipular enteros mayores que el l\u00edmite de precisi\u00f3n de 64 bits ($2^{53} - 1$)."
+    },
+    {
+      "front": "En el modelo de ejecuci\u00f3n de JavaScript, \u00bfcu\u00e1l es la funci\u00f3n de la pila de llamadas (call stack)?",
+      "back": "Realizar el seguimiento de los contextos de ejecuci\u00f3n y el flujo de control de las funciones (LIFO)."
+    },
+    {
+      "front": "\u00bfQu\u00e9 componente del modelo de ejecuci\u00f3n gestiona las tareas as\u00edncronas y las coloca en la pila cuando est\u00e1 vac\u00eda?",
+      "back": "El bucle de eventos (event loop)."
+    },
+    {
+      "front": "\u00bfQu\u00e9 ocurre cuando se intenta acceder a una propiedad que no existe en un objeto espec\u00edfico?",
+      "back": "JavaScript busca la propiedad de forma ascendente a trav\u00e9s de la cadena de prototipos hasta llegar a `null`."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la funci\u00f3n de los bloques de inicializaci\u00f3n est\u00e1ticos (`static {}`) en las clases de ES2022?",
+      "back": "Permiten ejecutar l\u00f3gica de inicializaci\u00f3n compleja para campos est\u00e1ticos una sola vez al crear la clase."
+    },
+    {
+      "front": "\u00bfQu\u00e9 permite hacer el m\u00e9todo `Object.hasOwn()`?",
+      "back": "Comprobar si un objeto tiene una propiedad propia espec\u00edfica sin depender de la herencia del prototipo."
+    },
+    {
+      "front": "\u00bfQu\u00e9 caracter\u00edstica de seguridad utiliza el navegador para ejecutar scripts en un entorno aislado?",
+      "back": "Sandbox."
+    },
+    {
+      "front": "\u00bfQu\u00e9 restricci\u00f3n de seguridad impide que un script de un sitio acceda a datos de otro dominio diferente?",
+      "back": "La pol\u00edtica del mismo origen (Same-Origin Policy)."
+    },
+    {
+      "front": "\u00bfQu\u00e9 ataque consiste en enga\u00f1ar al navegador para que realice peticiones no deseadas en nombre del usuario autenticado?",
+      "back": "Falsificaci\u00f3n de petici\u00f3n en sitios cruzados (CSRF)."
+    },
+    {
+      "front": "En el contexto de agentes y memoria compartida, \u00bfqu\u00e9 objeto permite la comunicaci\u00f3n de memoria entre diferentes hilos?",
+      "back": "`SharedArrayBuffer`."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es el prop\u00f3sito del objeto `Atomics` en aplicaciones multihilo?",
+      "back": "Garantizar que las operaciones de memoria compartida sean predecibles y evitar condiciones de carrera."
+    },
+    {
+      "front": "El principio por el cual una funci\u00f3n 'recuerda' su entorno de variables incluso despu\u00e9s de que la funci\u00f3n externa haya terminado se llama _____.",
+      "back": "Clausura (closure)."
+    },
+    {
+      "front": "\u00bfQu\u00e9 m\u00e9todo de `Array` se introdujo en ES6 para crear una instancia de arreglo a partir de un objeto iterable o similar a un arreglo?",
+      "back": "`Array.from()`."
+    },
+    {
+      "front": "\u00bfQu\u00e9 diferencia hay entre `Array.prototype.find()` y `Array.prototype.findIndex()`?",
+      "back": "`find` devuelve el valor del primer elemento que cumple la condici\u00f3n, mientras que `findIndex` devuelve su \u00edndice."
+    },
+    {
+      "front": "\u00bfQu\u00e9 hace el m\u00e9todo `Math.trunc()`?",
+      "back": "Elimina la parte fraccionaria de un n\u00famero y devuelve su parte entera."
+    },
+    {
+      "front": "\u00bfC\u00f3mo se define un 'agente' en la especificaci\u00f3n de ejecuci\u00f3n de JavaScript?",
+      "back": "Es un ejecutor aut\u00f3nomo que posee su propio mont\u00f3n (heap), cola de trabajos y pila de contextos."
+    },
+    {
+      "front": "Concepto: Realm",
+      "back": "Definici\u00f3n: Conjunto de objetos intr\u00ednsecos, variables globales y entorno asociado a una pieza de c\u00f3digo cargada."
+    },
+    {
+      "front": "\u00bfQu\u00e9 prioridad tienen las microtareas (como las promesas) frente a las macrotareas (como `setTimeout`) en el bucle de eventos?",
+      "back": "Las microtareas tienen mayor prioridad y su cola se vac\u00eda completamente antes de procesar la siguiente macrotarea."
+    },
+    {
+      "front": "\u00bfQu\u00e9 t\u00e9cnica de optimizaci\u00f3n permite al motor descartar el contexto de ejecuci\u00f3n actual si la llamada a la funci\u00f3n es la \u00faltima acci\u00f3n del llamador?",
+      "back": "Llamada de cola adecuada (Proper Tail Call)."
+    },
+    {
+      "front": "\u00bfQu\u00e9 sucede con una constante declarada con `const` si se intenta reasignar su valor?",
+      "back": "Se produce un error de tipo (`TypeError`) porque el valor es inmutable tras la asignaci\u00f3n inicial."
+    },
+    {
+      "front": "\u00bfPara qu\u00e9 sirve el modificador `u` en las expresiones regulares?",
+      "back": "Habilita el soporte completo para Unicode, tratando caracteres de 4 bytes como puntos de c\u00f3digo \u00fanicos."
+    }
+  ]
+}

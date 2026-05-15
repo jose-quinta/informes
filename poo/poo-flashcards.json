@@ -1,0 +1,165 @@
+{
+  "title": "Programaci\u00f3n Tarjetas",
+  "cards": [
+    {
+      "front": "\u00bfQu\u00e9 es una clase en el contexto de la programaci\u00f3n orientada a objetos?",
+      "back": "Es una plantilla o modelo predefinido para la creaci\u00f3n de objetos de datos."
+    },
+    {
+      "front": "En programaci\u00f3n orientada a objetos, \u00bfqu\u00e9 representa una 'instancia'?",
+      "back": "Es un objeto concreto creado a partir de una clase espec\u00edfica."
+    },
+    {
+      "front": "Los dos componentes principales que definen a un objeto son sus campos de datos (estado) y sus _____ (comportamiento).",
+      "back": "M\u00e9todos"
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la funci\u00f3n primordial de los m\u00e9todos en una clase?",
+      "back": "Implementar la funcionalidad y permitir la manipulaci\u00f3n de los datos del objeto."
+    },
+    {
+      "front": "T\u00e9rmino: Abstracci\u00f3n",
+      "back": "Definici\u00f3n: Proceso de ocultar los detalles de implementaci\u00f3n complejos y mostrar solo las caracter\u00edsticas esenciales al usuario."
+    },
+    {
+      "front": "\u00bfQu\u00e9 principio de la POO consiste en ocultar el estado interno de un objeto y protegerlo de accesos externos directos?",
+      "back": "Encapsulamiento."
+    },
+    {
+      "front": "\u00bfC\u00f3mo se llaman los m\u00e9todos p\u00fablicos que se utilizan habitualmente para consultar o modificar variables privadas?",
+      "back": "M\u00e9todos getter y setter."
+    },
+    {
+      "front": "El mecanismo que permite crear una clase nueva bas\u00e1ndose en una clase preexistente para reutilizar su c\u00f3digo se denomina _____.",
+      "back": "Herencia"
+    },
+    {
+      "front": "\u00bfQu\u00e9 es una 'clase base' o 'superclase'?",
+      "back": "Es la clase de la cual otras clases heredan atributos y comportamientos."
+    },
+    {
+      "front": "En el contexto de la herencia, \u00bfqu\u00e9 significa redefinir (override) un m\u00e9todo?",
+      "back": "Proveer una implementaci\u00f3n diferente en la subclase para un m\u00e9todo que ya existe en la superclase."
+    },
+    {
+      "front": "\u00bfQu\u00e9 tipo de polimorfismo ocurre cuando m\u00faltiples m\u00e9todos tienen el mismo nombre pero diferentes par\u00e1metros?",
+      "back": "Polimorfismo de tiempo de compilaci\u00f3n (sobrecarga de m\u00e9todos)."
+    },
+    {
+      "front": "El polimorfismo de tiempo de ejecuci\u00f3n se logra principalmente a trav\u00e9s de la _____ de m\u00e9todos.",
+      "back": "Redefinici\u00f3n (overriding)"
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la caracter\u00edstica principal de una Clase Abstracta?",
+      "back": "Es una clase dise\u00f1ada para no ser instanciada directamente, sirviendo solo como base para otras clases."
+    },
+    {
+      "front": "\u00bfEn qu\u00e9 se diferencia la Herencia Simple de la Herencia M\u00faltiple?",
+      "back": "La simple permite heredar de un solo padre, mientras que la m\u00faltiple permite heredar de varias clases base."
+    },
+    {
+      "front": "Tipo de asociaci\u00f3n: Composici\u00f3n",
+      "back": "Definici\u00f3n: Relaci\u00f3n fuerte donde el objeto hijo depende del ciclo de vida del objeto padre y no puede existir sin \u00e9l."
+    },
+    {
+      "front": "La relaci\u00f3n de tipo 'tiene un' donde los objetos tienen ciclos de vida independientes se conoce como _____.",
+      "back": "Agregaci\u00f3n"
+    },
+    {
+      "front": "\u00bfQu\u00e9 lenguaje de programaci\u00f3n se considera el origen hist\u00f3rico de los conceptos de la POO como las clases y la herencia?",
+      "back": "Simula 67."
+    },
+    {
+      "front": "En el modelo de objetos de JavaScript, el mecanismo de reutilizaci\u00f3n se basa en _____ en lugar de clases cl\u00e1sicas.",
+      "back": "Prototipos"
+    },
+    {
+      "front": "\u00bfQu\u00e9 es el 'enlace tard\u00edo' o 'enlace din\u00e1mico'?",
+      "back": "Es el mecanismo que permite decidir en tiempo de ejecuci\u00f3n qu\u00e9 m\u00e9todo debe invocarse en respuesta a un mensaje."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la funci\u00f3n del especificador de acceso 'protected'?",
+      "back": "Permite que un miembro sea visible para la clase y sus subclases, pero lo oculta para el exterior."
+    },
+    {
+      "front": "El principio 'Don't Repeat Yourself' (DRY) busca reducir la _____ de c\u00f3digo en una aplicaci\u00f3n.",
+      "back": "Repetici\u00f3n"
+    },
+    {
+      "front": "\u00bfQu\u00e9 ventaja ofrece la modularidad en el dise\u00f1o orientado a objetos?",
+      "back": "Permite subdividir una aplicaci\u00f3n en partes independientes que pueden compilarse y mantenerse por separado."
+    },
+    {
+      "front": "\u00bfQu\u00e9 es la recolecci\u00f3n de basura (garbage collection)?",
+      "back": "Es la t\u00e9cnica autom\u00e1tica para destruir objetos sin referencias y liberar su memoria asociada."
+    },
+    {
+      "front": "Concepto: Identidad de un objeto",
+      "back": "Definici\u00f3n: Propiedad \u00fanica que diferencia a un objeto de todos los dem\u00e1s, independientemente de su estado."
+    },
+    {
+      "front": "\u00bfCu\u00e1l es una de las principales cr\u00edticas o desventajas del paradigma orientado a objetos?",
+      "back": "Puede presentar una curva de aprendizaje pronunciada y mayor consumo de memoria por la creaci\u00f3n de objetos."
+    },
+    {
+      "front": "En POO, el env\u00edo de un mensaje a un objeto se traduce t\u00e9cnicamente en la _____ de uno de sus m\u00e9todos.",
+      "back": "Invocaci\u00f3n"
+    },
+    {
+      "front": "\u00bfQu\u00e9 diferencia fundamental hay entre la POO y la programaci\u00f3n estructurada tradicional?",
+      "back": "La POO une datos y procedimientos en objetos, mientras que la estructurada los mantiene separados."
+    },
+    {
+      "front": "En Java, para que una clase herede de otra se utiliza la palabra clave _____.",
+      "back": "extends"
+    },
+    {
+      "front": "\u00bfQu\u00e9 es una interfaz en el contexto de Java?",
+      "back": "Es una construcci\u00f3n que define un conjunto de m\u00e9todos que una clase debe implementar, permitiendo polimorfismo sin herencia de clase."
+    },
+    {
+      "front": "En lenguajes basados en clases, el proceso de crear un objeto a partir de una clase se llama _____.",
+      "back": "Instanciaci\u00f3n"
+    },
+    {
+      "front": "\u00bfQu\u00e9 componente de una clase act\u00faa como un contenedor de datos que refleja el estado de un objeto?",
+      "back": "Los campos de datos o atributos."
+    },
+    {
+      "front": "La capacidad de tratar objetos de diferentes tipos de manera uniforme a trav\u00e9s de una interfaz com\u00fan se llama _____.",
+      "back": "Polimorfismo"
+    },
+    {
+      "front": "\u00bfPor qu\u00e9 se dice que el encapsulamiento crea un 'cortafuegos' en el c\u00f3digo?",
+      "back": "Porque permite cambiar la implementaci\u00f3n interna de un objeto sin afectar al resto del sistema que usa su interfaz p\u00fablica."
+    },
+    {
+      "front": "T\u00e9rmino: Miembro privado",
+      "back": "Definici\u00f3n: Variable o m\u00e9todo de una clase que no es visible ni accesible para ninguna otra clase fuera de su definici\u00f3n."
+    },
+    {
+      "front": "\u00bfQu\u00e9 es el 'estado' de un objeto en tiempo de ejecuci\u00f3n?",
+      "back": "Es el conjunto de valores que poseen sus atributos en un momento determinado."
+    },
+    {
+      "front": "En lenguajes como Python o JavaScript, el polimorfismo es m\u00e1s flexible debido a que poseen un sistema de tipos _____.",
+      "back": "D\u00e9biles (o din\u00e1micos)"
+    },
+    {
+      "front": "\u00bfQu\u00e9 es un constructor?",
+      "back": "Es una funci\u00f3n especial dentro de una clase encargada de inicializar el estado de un nuevo objeto al ser creado."
+    },
+    {
+      "front": "En la jerarqu\u00eda de herencia, el uso de la palabra clave 'super' permite acceder a m\u00e9todos de la _____.",
+      "back": "Superclase (o clase padre)"
+    },
+    {
+      "front": "La programaci\u00f3n orientada a objetos se populariz\u00f3 enormemente gracias a su adaptaci\u00f3n para el desarrollo de _____.",
+      "back": "Interfaces gr\u00e1ficas de usuario"
+    },
+    {
+      "front": "\u00bfCu\u00e1l es la principal diferencia entre asociaci\u00f3n y herencia?",
+      "back": "La asociaci\u00f3n define c\u00f3mo interact\u00faan los objetos (tiene-un), mientras que la herencia define una jerarqu\u00eda de tipos (es-un)."
+    }
+  ]
+}
